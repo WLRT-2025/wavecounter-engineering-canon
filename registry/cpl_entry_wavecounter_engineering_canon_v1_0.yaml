@@ -1,0 +1,51 @@
+object:
+  name: WaveCounter Engineering Canon
+  domain: WaveCounter System
+  layer: Structural Canonical Layer
+  scope: Canonical Core Specification (WCCS + A.D.E Core)
+
+versioning:
+  core_version: v1.0
+  doi_release_version: v1.0.1
+  github_tag: v1.0.1
+  commit_hash: ce52d31
+  release_label: "WaveCounter Engineering Canon v1.0.1 (DOI Release)"
+
+publication:
+  doi: 10.5281/zenodo.18631109
+  platform: Zenodo
+  repository_url: https://github.com/WLRT-2025/wavecounter-engineering-canon
+  publication_date: 2026-02-13
+  publisher: Zenodo
+
+authorship:
+  author: Petr Popov
+  role: Independent Researcher
+  status: Canonical Author
+
+canonical_status:
+  freeze_status: Canonical Core Freeze
+  structural_priority_established: true
+  baseline_authority: v1.0
+  content_change_vs_v1_0: none
+
+disclosure_boundary:
+  disclosed:
+    - Canonical configuration system structure
+    - Entry-4 system
+    - Exit-5 system
+    - Structural transition logic
+    - Canonical reduction layer
+  excluded:
+    - Parameterization
+    - Execution logic
+    - Optimization procedures
+    - Filtering mechanisms
+    - Trading strategies
+    - Signal-generation logic
+    - Applied implementation layer (WCSE)
+
+architectural_consequence:
+  retroactive_modification_permitted: false
+  evolution_mode: additive_versioning_only
+  reference_required_for_future_extensions: true
