@@ -1,5 +1,11 @@
 # WaveCounter Engineering Canon v1.0
 
+
+**DOI (Zenodo):** https://doi.org/10.5281/zenodo.18631109  
+**Version:** v1.0.1 (DOI Release)  
+**Release date:** 2026-02-13  
+
+---
 Canonical Core Specification  
 WaveCounter Canonical Configuration System (WCCS)  
 WaveCounter A.D.E Core
