@@ -1,0 +1,4 @@
+Artifact: WaveCounter Engineering Canon v1.0.1 (Zenodo archive)
+File: WLRT-2025/wavecounter-engineering-canon-wc-engineering-canon-v1.0.1.zip
+SHA256: <твой_хеш>
+Date (UTC): 2026-02-13
