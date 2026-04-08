@@ -1,0 +1,25 @@
+id: wc-ade-core-v1.0
+title: WaveCounter A.D.E Core Rulebook
+version: v1.0
+status: canonical
+layer: core
+language: EN
+type: canonical_specification
+mutation: forbidden
+requires_new_version: true
+
+depends_on:
+  - wc-engineering-canon-v1.0.2
+
+defines:
+  - transition_system
+  - exit5_space
+  - reduction_operator
+  - deterministic_mapping
+
+notes: |
+  Defines the canonical A.D.E transition system over WCCS.
+  This is a standalone specification of the transition layer.
+
+  WCCS defines the state space.
+  A.D.E defines the transitions over that space.
