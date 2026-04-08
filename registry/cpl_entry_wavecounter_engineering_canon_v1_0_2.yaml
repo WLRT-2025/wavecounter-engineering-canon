@@ -1,0 +1,14 @@
+id: wc-engineering-canon-v1.0.2
+title: WaveCounter Engineering Canon
+version: v1.0.2
+status: fixed
+layer: core
+language: EN
+type: canonical_specification
+mutation: forbidden
+requires_new_version: true
+replaces: wc-engineering-canon-v1.0
+notes: |
+  Corrected two transition mappings in Table A:
+  4231 → 51342 → 1342
+  4231 → 15342 → 1342
