@@ -4,6 +4,8 @@
 **DOI (Zenodo):** https://doi.org/10.5281/zenodo.18631109  
 **Version:** v1.0.1 (DOI Release)  
 **Release date:** 2026-02-13  
+> **Latest canonical version:** v1.0.2 (Fixed)  
+> DOI: https://doi.org/10.5281/zenodo.19470131
 
 ---
 Canonical Core Specification  
