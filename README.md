@@ -6,6 +6,19 @@
 **Release date:** 2026-02-13  
 > **Latest canonical version:** v1.0.2 (Fixed)  
 > DOI: https://doi.org/10.5281/zenodo.19470131
+> ## M8 Execution Engine (Canonical Extension)
+
+DOI: https://doi.org/10.5281/zenodo.19519154  
+Version: v1.0  
+Status: Draft-Canonical (Execution Layer)
+
+This document defines the regime-aware execution layer for the ADE configuration system.
+
+- [Specification](ade/v1.0/m8_execution_engine/M8_Execution_Engine_v1.0.md)
+- [Execution JSON](ade/v1.0/m8_execution_engine/tableA_m8_execution.json)
+- [Validator](ade/v1.0/m8_execution_engine/validator_v1.0.py)
+- [Canonical Lock Validator](ade/v1.0/m8_execution_engine/canonical_lock_validator_v1.0.py)
+- [Source PDF](ade/v1.0/m8_execution_engine/CANONICAL_TABLE_A_10_32_10.pdf)
 
 ---
 Canonical Core Specification  
@@ -57,6 +70,12 @@ Canonical regime-aware execution layer for ADE:
 - trading strategies
 - signal-generation logic
 - applied implementation layer (WaveCounter Structural Engine, WCSE)
+
+  ## Citation
+
+Popov, Petr (2026).  
+*M8 Regime-Aware Execution Engine: A Canonical Extension of the ADE Configuration System*.  
+Zenodo. https://doi.org/10.5281/zenodo.19519154
 
 ---
 
