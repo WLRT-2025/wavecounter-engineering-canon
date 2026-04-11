@@ -1,0 +1,45 @@
+{
+  "tableA_m8_execution": [
+    {"entry4":"2143","exit5":"13254","reduced4":"1324","new_entry4":"1324","status":"CONT","regime_meaning":"UP_CONT","from_state":"S_UP","event_type":"process","event_code":"break_up(3)","to_state":"S_UP","step_level":0},
+    {"entry4":"2143","exit5":"31254","reduced4":"3124","new_entry4":"3124","status":"BREAK","regime_meaning":"UP_BREAK_TO_RANGE","from_state":"S_UP","event_type":"fix","event_code":"fix_3124","to_state":"S_RANGE","step_level":1},
+
+    {"entry4":"2413","exit5":"13524","reduced4":"1324","new_entry4":"1324","status":"CONT","regime_meaning":"UP_CONT","from_state":"S_UP","event_type":"process","event_code":"break_up(3)","to_state":"S_UP","step_level":0},
+    {"entry4":"2413","exit5":"31524","reduced4":"3124","new_entry4":"3124","status":"BREAK","regime_meaning":"UP_BREAK_TO_RANGE","from_state":"S_UP","event_type":"fix","event_code":"fix_3124","to_state":"S_RANGE","step_level":1},
+    {"entry4":"2413","exit5":"35124","reduced4":"3124","new_entry4":"3124","status":"BREAK","regime_meaning":"UP_BREAK_TO_RANGE","from_state":"S_UP","event_type":"fix","event_code":"fix_3124","to_state":"S_RANGE","step_level":1},
+
+    {"entry4":"1324","exit5":"21435","reduced4":"2143","new_entry4":"2143","status":"CONT","regime_meaning":"UP_CONT","from_state":"S_UP","event_type":"structure","event_code":"up_cont_reduction","to_state":"S_UP","step_level":1},
+    {"entry4":"1324","exit5":"24135","reduced4":"2413","new_entry4":"2413","status":"CONT","regime_meaning":"UP_CONT","from_state":"S_UP","event_type":"structure","event_code":"up_cont_reduction","to_state":"S_UP","step_level":1},
+    {"entry4":"1324","exit5":"24315","reduced4":"2431","new_entry4":"2431","status":"BREAK","regime_meaning":"UP_BREAK_TO_RANGE","from_state":"S_UP","event_type":"process","event_code":"break_down(3)","to_state":"S_RANGE","step_level":0},
+    {"entry4":"1324","exit5":"24351","reduced4":"2431","new_entry4":"2431","status":"BREAK","regime_meaning":"UP_BREAK_TO_RANGE","from_state":"S_UP","event_type":"process","event_code":"break_down(3)","to_state":"S_RANGE","step_level":0},
+
+    {"entry4":"2431","exit5":"13542","reduced4":"1342","new_entry4":"1342","status":"RANGE","regime_meaning":"RANGE_PREP_UP","from_state":"S_RANGE","event_type":"fix","event_code":"fix_1342","to_state":"S_RANGE","step_level":2},
+    {"entry4":"2431","exit5":"35142","reduced4":"3142","new_entry4":"3142","status":"RANGE","regime_meaning":"RANGE_PREP_DOWN","from_state":"S_RANGE","event_type":"structure","event_code":"range_prep_down","to_state":"S_RANGE","step_level":2},
+    {"entry4":"2431","exit5":"31542","reduced4":"3142","new_entry4":"3142","status":"RANGE","regime_meaning":"RANGE_PREP_DOWN","from_state":"S_RANGE","event_type":"structure","event_code":"range_prep_down","to_state":"S_RANGE","step_level":2},
+    {"entry4":"2431","exit5":"35412","reduced4":"3412","new_entry4":"3412","status":"RANGE","regime_meaning":"RANGE_PREP_DOWN","from_state":"S_RANGE","event_type":"structure","event_code":"range_prep_down","to_state":"S_RANGE","step_level":2},
+
+    {"entry4":"3124","exit5":"42135","reduced4":"4213","new_entry4":"4213","status":"RANGE","regime_meaning":"RANGE_PREP_DOWN","from_state":"S_RANGE","event_type":"fix","event_code":"fix_4213","to_state":"S_RANGE","step_level":2},
+    {"entry4":"3124","exit5":"42315","reduced4":"4231","new_entry4":"4231","status":"ENTRY","regime_meaning":"DOWN_CONT","from_state":"S_RANGE","event_type":"process","event_code":"break_down(3)","to_state":"S_DOWN","step_level":0},
+    {"entry4":"3124","exit5":"42351","reduced4":"4231","new_entry4":"4231","status":"ENTRY","regime_meaning":"DOWN_CONT","from_state":"S_RANGE","event_type":"process","event_code":"break_down(3)","to_state":"S_DOWN","step_level":0},
+
+    {"entry4":"4213","exit5":"53124","reduced4":"3124","new_entry4":"3124","status":"RANGE","regime_meaning":"RANGE_PREP_UP","from_state":"S_RANGE","event_type":"fix","event_code":"fix_3124","to_state":"S_RANGE","step_level":2},
+    {"entry4":"4213","exit5":"51324","reduced4":"1324","new_entry4":"1324","status":"ENTRY","regime_meaning":"UP_CONT","from_state":"S_RANGE","event_type":"process","event_code":"break_up(3)","to_state":"S_UP","step_level":0},
+    {"entry4":"4213","exit5":"15324","reduced4":"1324","new_entry4":"1324","status":"ENTRY","regime_meaning":"UP_CONT","from_state":"S_RANGE","event_type":"process","event_code":"break_up(3)","to_state":"S_UP","step_level":0},
+
+    {"entry4":"4231","exit5":"53412","reduced4":"3412","new_entry4":"3412","status":"CONT","regime_meaning":"DOWN_CONT","from_state":"S_DOWN","event_type":"structure","event_code":"down_cont_reduction","to_state":"S_DOWN","step_level":1},
+    {"entry4":"4231","exit5":"53142","reduced4":"3142","new_entry4":"3142","status":"CONT","regime_meaning":"DOWN_CONT","from_state":"S_DOWN","event_type":"structure","event_code":"down_cont_reduction","to_state":"S_DOWN","step_level":1},
+    {"entry4":"4231","exit5":"51342","reduced4":"1342","new_entry4":"1342","status":"BREAK","regime_meaning":"DOWN_BREAK_TO_RANGE","from_state":"S_DOWN","event_type":"process","event_code":"break_up(3)","to_state":"S_RANGE","step_level":0},
+    {"entry4":"4231","exit5":"15342","reduced4":"1342","new_entry4":"1342","status":"BREAK","regime_meaning":"DOWN_BREAK_TO_RANGE","from_state":"S_DOWN","event_type":"process","event_code":"break_up(3)","to_state":"S_RANGE","step_level":0},
+
+    {"entry4":"1342","exit5":"21453","reduced4":"2143","new_entry4":"2143","status":"ENTRY","regime_meaning":"UP_CONT","from_state":"S_RANGE","event_type":"structure","event_code":"range_to_up_prep","to_state":"S_RANGE","step_level":2},
+    {"entry4":"1342","exit5":"24153","reduced4":"2413","new_entry4":"2413","status":"ENTRY","regime_meaning":"UP_CONT","from_state":"S_RANGE","event_type":"structure","event_code":"range_to_up_prep","to_state":"S_RANGE","step_level":2},
+    {"entry4":"1342","exit5":"24531","reduced4":"2431","new_entry4":"2431","status":"RANGE","regime_meaning":"RANGE_PREP_DOWN","from_state":"S_RANGE","event_type":"fix","event_code":"fix_2431","to_state":"S_RANGE","step_level":2},
+    {"entry4":"1342","exit5":"24513","reduced4":"2413","new_entry4":"2413","status":"ENTRY","regime_meaning":"UP_CONT","from_state":"S_RANGE","event_type":"structure","event_code":"range_to_up_prep","to_state":"S_RANGE","step_level":2},
+
+    {"entry4":"3142","exit5":"42531","reduced4":"4231","new_entry4":"4231","status":"CONT","regime_meaning":"DOWN_CONT","from_state":"S_DOWN","event_type":"process","event_code":"break_down(3)","to_state":"S_DOWN","step_level":0},
+    {"entry4":"3142","exit5":"42513","reduced4":"4213","new_entry4":"4213","status":"BREAK","regime_meaning":"DOWN_BREAK_TO_RANGE","from_state":"S_DOWN","event_type":"fix","event_code":"fix_4213","to_state":"S_RANGE","step_level":1},
+    {"entry4":"3142","exit5":"42153","reduced4":"4213","new_entry4":"4213","status":"BREAK","regime_meaning":"DOWN_BREAK_TO_RANGE","from_state":"S_DOWN","event_type":"fix","event_code":"fix_4213","to_state":"S_RANGE","step_level":1},
+
+    {"entry4":"3412","exit5":"45231","reduced4":"4231","new_entry4":"4231","status":"CONT","regime_meaning":"DOWN_CONT","from_state":"S_DOWN","event_type":"process","event_code":"break_down(3)","to_state":"S_DOWN","step_level":0},
+    {"entry4":"3412","exit5":"45213","reduced4":"4213","new_entry4":"4213","status":"BREAK","regime_meaning":"DOWN_BREAK_TO_RANGE","from_state":"S_DOWN","event_type":"fix","event_code":"fix_4213","to_state":"S_RANGE","step_level":1}
+  ]
+}
