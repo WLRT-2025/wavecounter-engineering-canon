@@ -45,6 +45,15 @@ Excluded from this publication:
 - execution logic
 - optimization procedures
 - filtering mechanisms
+- ## M8 Execution Engine
+
+Canonical regime-aware execution layer for ADE:
+
+- [Specification](ade/v1.0/m8_execution_engine/M8_Execution_Engine_v1.0.md)
+- [Execution JSON](ade/v1.0/m8_execution_engine/tableA_m8_execution.json)
+- [Validator](ade/v1.0/m8_execution_engine/validator_v1.0.py)
+- [Canonical Lock Validator](ade/v1.0/m8_execution_engine/canonical_lock_validator_v1.0.py)
+- [Table A Source](ade/v1.0/m8_execution_engine/CANONICAL_TABLE_A_10_32_10.pdf)
 - trading strategies
 - signal-generation logic
 - applied implementation layer (WaveCounter Structural Engine, WCSE)
